@@ -19,7 +19,7 @@
 * POST /search
   * Use the id from request body to search themealdb for the recipe
   * Respond to a successful request with status code 200, the meal name, and the recipe given by themealdb API
-  * Respond to an unsuccessful request with status code 400 and a proper error message
+  * Respond to an unsuccessful request with status code 404 and a proper error message
 
 ### history.js
 * GET /history/search
