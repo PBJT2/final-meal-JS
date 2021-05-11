@@ -2,7 +2,8 @@
 
 ## Requirements:
 
-### Use custom node module from midterm (meal-hunt)
+### Use custom node module from midterm project (meal-hunt) that interacts with the themealdb API
+ * Source: https://themealdb.com/api.php
 
 ### server.js
 * Start the server
