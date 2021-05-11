@@ -11,7 +11,7 @@
 * Application level middleware
 
 ### search.js
-* GET /search?ingredient=<ingredientName>
+* GET /search?ingredient=\<ingredientName\>
   * Use ingredient query parameter to get meal results from themealdb API
   * Store ingredient query parameters, number of results, timestamp, and list of meals returned in MongoDB to create a search history
   * Do not store query when no meal results are returned
