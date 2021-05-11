@@ -1,0 +1,24 @@
+{
+  "name": "meal-server",
+  "version": "1.0.0",
+  "description": "Interact with meal-app through a server",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js"
+  },
+  "keywords": [
+    "meal-server"
+  ],
+  "author": "Aaron Tong",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "meal-hunt": "file:../meal-hunt",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
