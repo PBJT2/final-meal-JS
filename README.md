@@ -13,7 +13,7 @@
 ### search.js
 * GET /search?ingredient=\<ingredientName\>
   * Use ingredient query parameter to get meal results from themealdb API
-  * Store ingredient query parameters, number of results, timestamp, and list of meals returned in MongoDB to create a search history
+  * Store ingredient query parameters, number of results, and timestamp.
   * Do not store query when no meal results are returned
   * Respond to a successful request with status code 200 and required keys (id of meal and meal name)
   * Respond to query with 404 status code when no meals are returned
