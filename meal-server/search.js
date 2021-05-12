@@ -9,7 +9,6 @@ const _formatMeals = (response) => {
 
 const _formatMeal = (response) => {
   const meal = response.meals[0];
-  console.log(meal);
   return { mealName: `${meal.strMeal}`, mealRecipe: `${meal.strInstructions}` };
 };
 
@@ -32,7 +31,6 @@ router.get("/search", async (req, res) => {
         ingredient,
         timeSearched,
         numOfResults,
-        meals: formattedMeals,
       });
 
       res.json(formattedMeals);
